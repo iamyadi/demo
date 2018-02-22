@@ -1,0 +1,19 @@
+body{
+    text-align:center;
+    background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516519410346&di=954c6d2dc19a4730a4054f1250d5f3ff&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F140227%2F235111-14022F9410899.jpg) no-repeat;
+    background-size:100% 100%;
+
+    padding-top:20%;
+}
+html,body{
+    height: 100%;
+}
+#location,#temperature{
+    color:#304FFE;
+}
+#text{
+    background-color:#D1C4E9;
+    margin:0 auto;
+    width:40%;
+    padding:5px 20px;
+}

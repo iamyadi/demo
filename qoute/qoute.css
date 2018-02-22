@@ -1,0 +1,26 @@
+#qoute{
+    font-size: 40px;
+    text-align: center;
+    font-family:Serif;
+    background-color: #FAEBD7;
+    font-style: italic;
+    margin:3cm 6cm 0.5cm 6cm;
+    padding: 1cm 1cm 0.1cm 1cm;
+}
+#buttonframe{
+    text-align:center;
+}
+#button{
+    font-family:Serif;
+    font-size: 30px;
+}
+#share{
+    font-size: 40px;
+    text-align: left;
+}
+footer{
+    text-align: right;
+}
+body{
+    background-color:#7FFFD4;
+}

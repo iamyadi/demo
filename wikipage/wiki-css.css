@@ -1,0 +1,38 @@
+body{
+    background-color:#01579B;
+    text-align:center;
+}
+a,h2{
+    color:#FAFAFA;
+    text-decoration: none;
+
+}
+h2{margin-top: 5%;}
+a.random:hover{
+    color:#64FFDA;
+    font-size:120%;
+}
+i{
+    color:#FAFAFA;
+    vertical-align: top;
+}
+input{
+    width: 20%;
+    height: 30px;
+    display:inline-block;
+}
+p{
+    display: inline;
+}
+ a#search:active{
+     font-size:80%;
+}
+ #searchResult a{
+     display: block;
+     background-color:white;
+     margin:10px 30px;
+     padding:8px;
+     color:black;
+     font:normal bold 23px arial,verdana;
+     text-align:left;
+ }
