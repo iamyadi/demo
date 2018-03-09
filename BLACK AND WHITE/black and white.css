@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.backgroundChange{
+    width: 100vm;
+    height:100vh;
+    animation: backgroundChange 10s linear infinite;
+}
+@keyframes backgroundChange {
+    0%{background-color: white}
+    50%{background-color: black}
+    100%{background-color: white}
+}
+.chameleon{
+    font-family: Helvetica, sans-serif;
+    font-size: calc(4vh + 3.5vw);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: colorChange 10s linear infinite;
+}
+@keyframes colorChange{
+    0%{color: black}
+    50%{color: white}
+    100%{color: black}
+}

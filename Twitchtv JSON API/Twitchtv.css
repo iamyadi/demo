@@ -1,0 +1,9 @@
+.total{
+    background-color: pink;
+    height: 100vh;
+    width: 40vw;
+    padding-top:7vh;
+}
+#header{
+    color: gray;
+}
