@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yadi"s account book</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdn.bootcss.com/datepicker/0.6.4/datepicker.css" rel="stylesheet">
+    <link rel="stylesheet" href="account%20book.css">
+
+    <!--<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>-->
+    <!--<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+</head>
+<body>
+    <div id="container">
+        <ul class="nav nav-tabs">
+            <li><a href="#tableDetail">明细</a></li>
+            <li><a href="#">报表</a></li>
+        </ul>
+        <!--<div id="details">-->
+            <!--<span>支出说明</span><span>支出金额</span><span>日期</span><span>操作</span>-->
+        <!--</div>-->
+        <table id="tableDetail" class="table table-striped">
+            <tr>
+                <th>支出说明</th>
+                <th>支出金额</th>
+                <th>日期</th>
+                <th>操作</th>
+            </tr>
+            <tr>
+                <td>{{data.message}}</td>
+                <td>{{data.money}}</td>
+                <td>{{data.time}}</td>
+                <td><button class="btn btn-danger" >Delete</button></td>
+            </tr>
+        </table>
+        <form id="inputForm" onsubmit="return false">
+            <input class="inputMessage" type="text" placeholder="支出说明">
+            <input class="inputMoney" type="text" placeholder="支出金额">
+            <input class="dateTime" placeholder="选择日期" data-toggle="datepicker">
+            <button class="btn btn-info" @click = addNew>记一笔</button>
+        </form>
+
+
+    </div>
+
+
+    <script type="text/javascript" charset="UTF-8" src="https://cdn.bootcss.com/store.js/1.3.20/store.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://cdn.bootcss.com/datepicker/0.6.4/datepicker.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="main.js"></script>
+</body>
+</html>
