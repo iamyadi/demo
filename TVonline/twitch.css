@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.container{
+    width: 40%;
+    height: 100%;
+    margin: 50px auto;
+    background-color: beige;
+}
+.navbar{
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5C5457;
+}
+#all, #offline, #online{
+    color: white;
+    font-size: large;
+}
+.content{
+    list-style-type: none;
+    margin-left:-40px;
+}
+.person{
+    height: 75px;
+    margin:3px 0 0 0;
+    background-color: #B8CCA6;
+
+}
+.status{
+    margin-right: 20%;
+    margin-left: 30%;
+}
+.name{
+    margin-left: 5%;
+}
+.divOne{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+img{
+    border-radius: 50%;
+    height: 100%;
+    width: 65px;
+    margin-left: 5%;
+}
+/*.header{*/
+/*display: flex;*/
+/*display: -webkit-flex;*/
+/*flex-direction: column;*/
+/*justify-content:space-between;*/
+/*}*/
+/*.title{*/
+/*display: inline-flex;*/
+/*flex: auto;*/
+/*}*/
